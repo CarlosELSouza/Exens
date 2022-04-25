@@ -97,6 +97,10 @@ hr {
   opacity: 0.25;
 }
 
+.page-section {
+  padding: 8rem 0;
+}
+
 hr:not([size]) {
   height: 1px;
 }
@@ -7366,8 +7370,9 @@ textarea.form-control-lg {
   margin-bottom: 0.25rem !important;
 }
 
-.mb-2 {
+.mb-2 path{
   margin-bottom: 0.5rem !important;
+  fill: #0c4128;
 }
 
 .mb-3 {
@@ -11395,3 +11400,24 @@ i {
   color: #031c2c;
   background-color: #05283f;
 }
+
+.text-primary {
+  font-family: Arial;
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+}
+
+#services {
+  color: white;
+  font-family: inherit;
+  display: flex;
+}
+
+#textos {
+  font-size: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
